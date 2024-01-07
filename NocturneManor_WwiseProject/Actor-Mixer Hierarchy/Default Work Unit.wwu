@@ -1,6 +1,550 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{41372B5A-9D8F-46D2-84ED-9762FEFB0DBA}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{41372B5A-9D8F-46D2-84ED-9762FEFB0DBA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{41372B5A-9D8F-46D2-84ED-9762FEFB0DBA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Soundfiles" ID="{FC81A4D1-1333-40D7-B137-BC1E19CFD90A}" ShortID="365438738">
+					<ChildrenList>
+						<Sound Name="NocturneManor_SFX_Clock_01" ID="{F40039CF-3327-4A65-B1FC-D6038002420D}" ShortID="404605049">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneManor_SFX_Clock_01" ID="{6E5F636D-871D-40BC-8BCC-7C59E343F5C1}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneManor_SFX_Clock_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="849217323"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneManor_SFX_Clock_01" ID="{6E5F636D-871D-40BC-8BCC-7C59E343F5C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneManor_SFX_Fire_01" ID="{15CB3277-3D1D-4935-9DAE-C8A431A07BE2}" ShortID="639677699">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneManor_SFX_Fire_01" ID="{43BFFA8B-5958-4A7D-BCE4-603EC21AA331}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneManor_SFX_Fire_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="33079938"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneManor_SFX_Fire_01" ID="{43BFFA8B-5958-4A7D-BCE4-603EC21AA331}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneManor_SFX_Piano_note1" ID="{B493D2E7-A2DD-401F-9F7B-10994E467E8E}" ShortID="678770492">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneManor_SFX_Piano_note1" ID="{54A6FB61-5C2A-4617-BC13-F60923E93E6F}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneManor_SFX_Piano_note1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="201693239"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneManor_SFX_Piano_note1" ID="{54A6FB61-5C2A-4617-BC13-F60923E93E6F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneManor_SFX_Piano_note2" ID="{5BA00C50-8AD2-4351-9AB5-7102FAE4A3DC}" ShortID="625863572">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneManor_SFX_Piano_note2" ID="{F950E078-8DB2-4C65-A4A3-E07E698D397F}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneManor_SFX_Piano_note2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="696336002"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneManor_SFX_Piano_note2" ID="{F950E078-8DB2-4C65-A4A3-E07E698D397F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneManor_SFX_Piano_note3" ID="{409A84D1-89D2-4100-9931-6C98E0D34DDA}" ShortID="497613929">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneManor_SFX_Piano_note3" ID="{816DD090-C03E-474C-9A28-76E3D8392661}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneManor_SFX_Piano_note3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477441319"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneManor_SFX_Piano_note3" ID="{816DD090-C03E-474C-9A28-76E3D8392661}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneManor_SFX_Piano_note4" ID="{770C7DED-7068-4ABE-917C-AC00C4BF703B}" ShortID="458680425">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneManor_SFX_Piano_note4" ID="{453B4D2E-9F64-4D11-B3FC-B1E8B13B2FB5}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneManor_SFX_Piano_note4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="368752045"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneManor_SFX_Piano_note4" ID="{453B4D2E-9F64-4D11-B3FC-B1E8B13B2FB5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneManor_SFX_Piano_note5" ID="{7D521AE4-F205-4F13-85D2-F58D5D834EE6}" ShortID="772136670">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneManor_SFX_Piano_note5" ID="{BBC1E9EF-15FB-4993-B7AC-C14FB734BF05}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneManor_SFX_Piano_note5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="415906045"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneManor_SFX_Piano_note5" ID="{BBC1E9EF-15FB-4993-B7AC-C14FB734BF05}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneSFX_Footsteps_01" ID="{D13E0663-3360-4750-8C6E-00240B1A3CFB}" ShortID="895456200">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneSFX_Footsteps_01" ID="{38857786-04DD-4D39-BEBA-081BDC545DDD}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneSFX_Footsteps_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1026384264"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneSFX_Footsteps_01" ID="{38857786-04DD-4D39-BEBA-081BDC545DDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneSFX_Footsteps_02" ID="{D5AD5BB0-5EA1-4915-8574-10822AEFA77D}" ShortID="778854073">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneSFX_Footsteps_02" ID="{3895562B-09A8-46E6-BDA2-88FF4FEE3704}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneSFX_Footsteps_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1018424843"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneSFX_Footsteps_02" ID="{3895562B-09A8-46E6-BDA2-88FF4FEE3704}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneSFX_Footsteps_03" ID="{9DA963A1-E045-4F65-9C90-7190AA0BECAB}" ShortID="114348861">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneSFX_Footsteps_03" ID="{F9414A29-46DF-42DC-86A5-4B52B8EEB4C4}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneSFX_Footsteps_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="181468196"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneSFX_Footsteps_03" ID="{F9414A29-46DF-42DC-86A5-4B52B8EEB4C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneSFX_Footsteps_04" ID="{BDAC5CF8-AE84-4DEC-81A3-CBDBEAE409F5}" ShortID="686186647">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneSFX_Footsteps_04" ID="{30680CCF-591A-4824-A00D-3582EF804E74}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneSFX_Footsteps_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="416264661"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneSFX_Footsteps_04" ID="{30680CCF-591A-4824-A00D-3582EF804E74}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneSFX_Footsteps_05" ID="{D06661BF-AA3B-490E-B3F8-7D81D8DA3132}" ShortID="481127272">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneSFX_Footsteps_05" ID="{20F9D0A5-5EE9-4921-94FC-7913C68A817F}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneSFX_Footsteps_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1072888132"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneSFX_Footsteps_05" ID="{20F9D0A5-5EE9-4921-94FC-7913C68A817F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneSFX_Footsteps_06" ID="{F3DE83CB-3878-411D-B4ED-B9EE00388A59}" ShortID="466277861">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneSFX_Footsteps_06" ID="{C62BC2F1-ECD5-497F-ABCC-9C6BCB901A06}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneSFX_Footsteps_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="152059584"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneSFX_Footsteps_06" ID="{C62BC2F1-ECD5-497F-ABCC-9C6BCB901A06}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NocturneSFX_Footsteps_07" ID="{191197E6-B04D-4519-9F91-FBDE55871593}" ShortID="870657778">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NocturneSFX_Footsteps_07" ID="{C633916F-21A6-40D3-9798-0DADE9BFAE48}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\NocturneSFX_Footsteps_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="652263685"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="NocturneSFX_Footsteps_07" ID="{C633916F-21A6-40D3-9798-0DADE9BFAE48}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Nocturne_Hint_Dooropen_01" ID="{99CFC98F-ECD8-4E2E-8594-123F6A27DE05}" ShortID="948152493">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Nocturne_Hint_Dooropen_01" ID="{62961239-E135-4728-96E3-E0A2EBFE1618}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\Nocturne_Hint_Dooropen_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="438495386"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Nocturne_Hint_Dooropen_01" ID="{62961239-E135-4728-96E3-E0A2EBFE1618}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Nocturne_Hint_SafeOpen_01" ID="{63C16367-6646-42F5-A9B4-F093EBBD57F9}" ShortID="1022897222">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Nocturne_Hint_SafeOpen_01" ID="{24FE9AFE-A9DF-4918-AFD8-89D54BF487A2}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\Nocturne_Hint_SafeOpen_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="852120150"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Nocturne_Hint_SafeOpen_01" ID="{24FE9AFE-A9DF-4918-AFD8-89D54BF487A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Nocturne_SFX_Brokenkey_01" ID="{CC6C2885-56C1-48AF-A4E1-6389E4A473EF}" ShortID="986327030">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Nocturne_SFX_Brokenkey_01" ID="{FC5BE5B2-3A90-4AE6-A21E-AC024AE119A4}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\Nocturne_SFX_Brokenkey_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="803660953"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Nocturne_SFX_Brokenkey_01" ID="{FC5BE5B2-3A90-4AE6-A21E-AC024AE119A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Nocturne_Theme_Part1" ID="{8A73B511-A533-4ACB-A8C0-5F41FB8469B5}" ShortID="321535959">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Nocturne_Theme_Part1" ID="{8A9EAA10-9BB4-44D9-900C-FA1D94FED48C}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-6.4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\Nocturne_Theme_Part1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="841518992"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Nocturne_Theme_Part1" ID="{8A9EAA10-9BB4-44D9-900C-FA1D94FED48C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Nocturne_Theme_Part2" ID="{AD65DA36-3178-43B5-8830-287FF418B028}" ShortID="1050945806">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{650C1538-C61D-46BD-A085-71345A635EA1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5449E25-9100-4B74-988A-BA9CFD76B4B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Nocturne_Theme_Part2" ID="{18177D36-C282-4DE2-A620-73C2812A4317}">
+									<Language>SFX</Language>
+									<AudioFile>Soundfiles\Nocturne_Theme_Part2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="646153164"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Nocturne_Theme_Part2" ID="{18177D36-C282-4DE2-A620-73C2812A4317}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
